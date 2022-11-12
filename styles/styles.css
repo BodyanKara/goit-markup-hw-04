@@ -317,6 +317,14 @@ img{
 .client-list{
     list-style: none;
     display: flex;
+    justify-content: center;
+}
+.client-list .item{
+    border: 1px solid #AFB1B8;
+        border-radius: 4px;
+}
+.client-list .item:not(:last-child){
+    margin-right: 30px;
 }
 
     /* main (portfolio)*/
